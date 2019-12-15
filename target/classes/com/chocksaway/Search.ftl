@@ -1,8 +1,9 @@
 <!-- Code taken from https://www.w3schools.com/howto/howto_js_filter_table.asp //-->
 <#-- @ftlvariable name="" type="com.chocksaway.SearchView" -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <title> Search</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         * {
@@ -10,7 +11,7 @@
         }
 
         #myInput {
-            background-image: url('/css/searchicon.png');
+            //background-image: url('/css/searchicon.png');
             background-position: 10px 10px;
             background-repeat: no-repeat;
             width: 100%;
