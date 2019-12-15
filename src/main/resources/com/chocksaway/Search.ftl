@@ -108,5 +108,28 @@
     }
 </script>
 
+
+<#function filter data name value>
+    <#local result = []>
+    <#list data as each>
+        <#if each[name] == value>
+            <#local result = result + [each]>
+        </#if>
+    </#list>
+    <#return result>
+</#function>
+
+<#-- some test data -->
+<#assign data = [ {"propertyName":"my value",    "foo":100},
+{"propertyName":"other value", "foo":101},
+{"propertyName":"my value",    "foo":102}] >
+
+<#assign filteredData = filter(data, "propertyName", "my value") >
+
+<#list filteredData as item>
+    ${item.foo}
+</#list>
+
+
 </body>
 </html>
