@@ -9,7 +9,7 @@ public class SearchView extends View {
     private final Saying search;
 
     protected SearchView(Saying search) {
-        super("search.ftl");
+        super("Search.ftl");
         this.search = search;
     }
 
