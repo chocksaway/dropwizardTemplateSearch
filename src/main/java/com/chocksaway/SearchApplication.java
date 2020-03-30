@@ -27,8 +27,7 @@ public class SearchApplication extends Application<SearchConfiguration> {
     public void run(SearchConfiguration configuration,
                     Environment environment) {
         final SearchResource resource = new SearchResource(
-                configuration.getTemplate(),
-                configuration.getDefaultName()
+                configuration.getTemplate()
         );
         final TemplateHealthCheck healthCheck =
                 new TemplateHealthCheck(configuration.getTemplate());

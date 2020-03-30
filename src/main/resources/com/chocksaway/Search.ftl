@@ -50,40 +50,40 @@
 
 <table id="myTable">
     <tr class="header">
-        <th style="width:60%;">Name</th>
+        <th style="width:60%;">TV Program</th>
         <th style="width:40%;">Country</th>
     </tr>
     <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Germany</td>
+        <td>Tradional Swiss um pah band </td>
+        <td>Switzerland</td>
     </tr>
     <tr>
-        <td>Berglunds snabbkop</td>
-        <td>Sweden</td>
-    </tr>
-    <tr>
-        <td>Island Trading</td>
+        <td>Rainbow - Zippy has a cold</td>
         <td>UK</td>
     </tr>
     <tr>
-        <td>Koniglich Essen</td>
-        <td>Germany</td>
-    </tr>
-    <tr>
-        <td>Laughing Bacchus Winecellars</td>
-        <td>Canada</td>
-    </tr>
-    <tr>
-        <td>Magazzini Alimentari Riuniti</td>
-        <td>Italy</td>
-    </tr>
-    <tr>
-        <td>North/South</td>
+        <td>The Flumps - the flumpet is broken</td>
         <td>UK</td>
     </tr>
     <tr>
-        <td>Paris specialites</td>
+        <td>Magic Roundabout</td>
+        <td>UK</td>
+    </tr>
+    <tr>
+        <td>In The Night Garden - has someone got a light?</td>
+        <td>UK</td>
+    </tr>
+    <tr>
+        <td>Cheese and Baguette Weekly</td>
         <td>France</td>
+    </tr>
+    <tr>
+        <td>Zig and Zag</td>
+        <td>Ireland</td>
+    </tr>
+    <tr>
+        <td>Open University</td>
+        <td>UK / BBC2 - in the middle of the nights</td>
     </tr>
 </table>
 
